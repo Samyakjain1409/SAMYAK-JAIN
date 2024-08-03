@@ -1,99 +1,830 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samyak Jain's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Samyak Jain</h1>
-            <p>Computer Science Engineer | Aspiring Developer</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/3d8443d184.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- header section -->
+    <header class="nav-bar">
+      <div class="title-combo">
+        <div class="logo">
+          <img src="./IMAGES/image.png" alt="LOGO" />
         </div>
+        <div class="title">
+          <h5>ROCKS>></h5>
+        </div>
+      </div>
+
+      <div class="fav">
+        <h3>Favourites</h3>
+      </div>
+      <div class="search-box">
+        <button id="search-button" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input type="text" placeholder="Search.." id="search-input" />
+        <button type="submit"><i class="fa-solid fa-microphone"></i></button>
+      </div>
+      <div class="bell">
+        <i class="fa-solid fa-bell"></i>
+      </div>
+      <div class="end">
+        <img src="./IMAGES/image2.avif" alt="" />
+      </div>
     </header>
-    
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <img src="WhatsApp Image 2024-07-25 at 21.22.24_9e5b60af.jpg" alt="Samyak's Photo">
-            <p>Hello! I am Samyak, a passionate computer science engineer with experience in web development, machine learning, and computer vision. I am always eager to learn and take on new challenges. With a strong foundation in programming and a keen interest in cutting-edge technologies, I have developed several projects that demonstrate my capabilities. I am particularly interested in exploring how artificial intelligence and machine learning can be integrated into web development to create more intelligent and intuitive applications.</p>
-            <p>My journey began with a fascination for technology and an unending curiosity to understand how things work. This has led me to immerse myself in various programming languages and development frameworks. I have honed my skills through continuous learning and practical application, always striving to stay ahead of the curve in this ever-evolving field.</p>
-            <p>In addition to my technical skills, I am a team player who believes in the power of collaboration. I enjoy working in dynamic environments where innovative ideas are encouraged, and I am committed to contributing my best to any team I am a part of.</p>
-        </div>
-    </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li><i class="fas fa-code"></i> Programming Languages: Python, C, C++</li>
-                <li><i class="fas fa-laptop-code"></i> Web Development: HTML, CSS</li>
-                <li><i class="fas fa-eye"></i> Computer Vision: OpenCV</li>
-                <li><i class="fas fa-brain"></i> Machine Learning: Basics</li>
-                <li><i class="fas fa-tools"></i> Developer Tools: Git, VS Code, PyCharm, Jupyter, Google Colab</li>
-                <li><i class="fas fa-project-diagram"></i> Libraries: NumPy, pandas, Matplotlib, Seaborn</li>
-            </ul>
-        </div>
-    </section>
+    <!-- header section ends -->
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Face Detection using OpenCV</h3>
-                <p>This project demonstrates face detection capabilities using OpenCV. By leveraging the power of machine learning algorithms, the system can accurately identify and track human faces in real-time video streams.</p>
-                <ul>
-                    <li>Trained using a dataset of facial images.</li>
-                    <li>Implemented detection logic in Python.</li>
-                    <li>Real-time face tracking and recognition.</li>
-                    <li>Utilized Haar Cascades and Deep Learning models.</li>
-                </ul>
+    <!-- main begins          -->
+    <div class="combine">
+      <main class="content">
+        <div class="trio">
+          <div class="first hver">
+            <img src="./IMAGES/photo-1501386761578-eac5c94b800a.avif" alt="" />
+          </div>
+          <div class="second hver">
+            <img src="./IMAGES/photo-1512405173804-40c66c0ed709.avif" alt="" />
+          </div>
+
+          <div class="third hver">
+            <img src="./IMAGES/photo-1493225457124-a3eb161ffa5f.avif" alt="" />
+          </div>
+        </div>
+
+        <!-- release section -->
+
+        <div class="release">
+          <div class="heading t">
+            <h2>LATEST RELEASE</h2>
+          </div>
+
+          <div class="pair">
+            <div class="release1">
+              <div class="pack1">
+                <div class="fig1">
+                  <img
+                    src="./IMAGES/photo-1482443462550-d2c99314ab6a.avif"
+                    alt="logo"
+                  />
+                </div>
+                <div class="name t">
+                  <h4>Rahbata</h4>
+                  Aug 24,2018
+                </div>
+              </div>
+
+              <div class="dots">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <i
+                      class="fa-solid fa-ellipsis fa-fade"
+                      style="color: #eaedf0"
+                    ></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Play Now</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Queue</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-calendar-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Favourites</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Get Info</a>
+                      </div>
+                    </div>
+                 
+                  </div>
+                </div>
+                <div class="time t">4:55</div>
+              </div>
             </div>
-            <div class="project">
-                <h3>Object Detection using OpenCV</h3>
-                <p>This object detection project showcases the use of OpenCV for identifying various objects in images and videos. The system is capable of recognizing multiple objects simultaneously and providing bounding boxes around them.</p>
-                <ul>
-                    <li>Integrated pre-trained deep learning models.</li>
-                    <li>Efficient processing with OpenCV.</li>
-                    <li>Real-time object detection and tracking.</li>
-                    <li>Implemented in Python for flexible development.</li>
-                </ul>
+
+            <div class="release1">
+              <div class="pack1">
+                <div class="fig1">
+                  <img
+                    src="./IMAGES/photo-1482443462550-d2c99314ab6a.avif"
+                    alt="logo"
+                  />
+                </div>
+                <div class="name t">
+                  <h4>Rahbata</h4>
+                  Aug 24,2018
+                </div>
+              </div>
+
+              <div class="dots">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <i
+                      class="fa-solid fa-ellipsis fa-fade"
+                      style="color: #eaedf0"
+                    ></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Play Now</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Queue</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-calendar-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Favourites</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Get Info</a>
+                      </div>
+                    </div>
+                 
+                  </div>
+                </div>
+                <div class="time t">4:55</div>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <a href="My Resume (1).pdf" download class="btn">Download My Resume</a>
-        </div>
-    </section>
+          <div class="pair">
+            <div class="release1">
+              <div class="pack1">
+                <div class="fig1">
+                  <img
+                    src="./IMAGES/photo-1482443462550-d2c99314ab6a.avif"
+                    alt="logo"
+                  />
+                </div>
+                <div class="name t">
+                  <h4>Rahbata</h4>
+                  Aug 24,2018
+                </div>
+              </div>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p><i class="fas fa-envelope"></i> E-mail: jsamyak178@gmail.com</p>
-            <p><i class="fas fa-phone"></i> Phone: +91 8273717834</p>
+              <div class="dots">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <i
+                      class="fa-solid fa-ellipsis fa-fade"
+                      style="color: #eaedf0"
+                    ></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Play Now</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Queue</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-calendar-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Favourites</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Get Info</a>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+                <div class="time t">4:55</div>
+              </div>
+            </div>
+
+            <div class="release1">
+              <div class="pack1">
+                <div class="fig1">
+                  <img
+                    src="./IMAGES/photo-1482443462550-d2c99314ab6a.avif"
+                    alt="logo"
+                  />
+                </div>
+                <div class="name t">
+                  <h4>Rahbata</h4>
+                  Aug 24,2018
+                </div>
+              </div>
+
+              <div class="dots">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <i
+                      class="fa-solid fa-ellipsis fa-fade"
+                      style="color: #eaedf0"
+                    ></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Play Now</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Queue</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-calendar-plus"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Add To Favourites</a>
+                      </div>
+                    </div>
+                    <div class="phela">
+                      <div class="yo">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                      </div>
+                      <div class="ha">
+                        <a href="#">Get Info</a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="time t">4:55</div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+
+        <!-- popular artist section begins -->
+
+        <div class="popular">
+          <div class="heading t">
+            <h2>POPULAR ARTIST</h2>
+          </div>
+          <div class="artist">
+            <div class="fir">
+              <img src="./IMAGES/A.R" alt="Ar" />
+            </div>
+            <div class="fir">
+              <img src="./IMAGES/lataji.jpeg" alt="lataji" />
+            </div>
+            <div class="fir">
+              <a href="./index2.html">  <img src="./IMAGES/arijit-singh.webp" alt="arjit" /></a>
+            </div>
+            <div class="fir">
+              <img src="./IMAGES/neha.jpg" alt="neha" />
+            </div>
+            <div class="fir">
+              <img src="./IMAGES/Darshan.jpg" alt="darshan" />
+            </div>
+            <div class="fir">
+              <img src="./IMAGES/Shreyaji.jpg" alt="shreya" />
+            </div>
+          </div>
+          <div class="artistname">
+            <div class="name t">
+              <h4>A.R Rahman</h4>
+            </div>
+            <div class="name2 t">
+              <h4>Lata Mangeshkar</h4>
+            </div>
+            <div class="name3 t">
+              <h4>Arjit Singh</h4>
+            </div>
+            <div class="name4 t">
+              <h4>Neha Kakkar</h4>
+            </div>
+            <div class="name5 t">
+              <h4>Darshan Raval</h4>
+            </div>
+            <div class="name6 t">
+              <h4>Shreya Ghoshal</h4>
+            </div>
+          </div>
+        </div>
+        <div class="type">
+          <!--  section of station begins -->
+
+          <div class="station m">
+            <img src="./IMAGES/station.jpg" alt="" />
+          </div>
+
+          <div class="shift">
+            <div class="love w m">
+              <img src="./IMAGES/love.avif" alt="" />
+              <div class="text-overlay">Love</div>
+            </div>
+            <div class="retro w m">
+              <img src="./IMAGES/retro.webp" alt="" />
+              <div class="text-overlay">retro</div>
+            </div>
+            <div class="chill w m">
+              <img src="./IMAGES/chill.avif" alt="" />
+              <div class="text-overlay">chill</div>
+            </div>
+            <div class="rock w m">
+              <img src="./IMAGES/rock.avif" alt="" />
+              <div class="text-overlay">rock</div>
+            </div>
+            <div class="workout w m">
+              <img src="./IMAGES/workout.jpg" alt="" />
+              <div class="text-overlay">workout</div>
+            </div>
+            <div class="pop w m">
+              <img src="./IMAGES/pop4.avif" alt="" />
+              <div class="text-overlay">Pop</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- party electronic roadtripp -->
+
+        <div class="type1">
+          <div class="party k m">
+            <img src="./IMAGES/party.avif" alt="" />
+            <div class="text-overlay"><h1>Party</h1></div>
+          </div>
+          <div class="electronic k m">
+            <img src="./IMAGES/electronic.avif" alt="" />
+            <div class="text-overlay"><h1>Electronic</h1></div>
+          </div>
+          <div class="roadtrip k m">
+            <img src="./IMAGES/roadtrip.avif" alt="" />
+            <div class="text-overlay"><h1>Roadtrip</h1></div>
+          </div>
+        </div>
+
+        <!-- section of latest english begins -->
+
+        <div class="english">
+          <div class="heading t">
+            <h2>Latest English</h2>
+          </div>
+
+          <div class="lower">
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section of latest hindi begins -->
+
+        <div class="english">
+          <div class="heading t">
+            <h2>Latest Hindi</h2>
+          </div>
+
+          <div class="lower">
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+
+            <div class="one">
+              <div class="photo">
+                <img src="./IMAGES/eng.avif" alt="" />
+              </div>
+              <div class="under t">Onism</div>
+              <div class="date t">Aug 11,2017</div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- main ends -->
+
+      <!-- aside section begins -->
+
+      <aside>
+        <div class="queue">
+          <div class="heading t">
+            <h2>My Playlist</h2>
+          </div>
+
+          <div class="drop t">
+              <div class="dropdown">
+                <button class="dropbtn t">
+                  Oueue
+                </button>
+                <div class="dropdown-content al">
+                  <div class="phela">
+                    <div class="ha">
+                      <a href="#">Playlists</a>
+                    </div>
+                  </div>
+                  <div class="phela">
+                    <div class="ha">
+                      <a href="#">Favourite Songs</a>
+                    </div>
+                  </div>
+                  
+               
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="list">
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">01</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">02</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">03</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">04</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">05</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">06</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">07</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">08</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">09</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="listone">
+            <div class="trios">
+              <div class="number mar t">10</div>
+              <div class="pic mar">
+                <img src="./IMAGES/listphoto.avif" alt="" />
+              </div>
+
+              <div class="some mar">
+                <div class="mir t">Mirage</div>
+
+                <div class="el t">Else</div>
+              </div>
+            </div>
+
+            <div class="heart mar t"><i class="fa-regular fa-heart"></i></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- aside section ends -->
+
+    <!-- footer section begins -->
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Samyak Jain. All rights reserved.</p>
+      <div class="foot">
+        <div class="fl">
+          <div class="im">
+            <img src="./IMAGES/fm.avif" alt="" />
+          </div>
+
+          <div class="cr">
+          Imagine by John </br>
+            John Lennon
+          </div>
+          <div class="twos">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-ban"></i>
+          </div>
         </div>
+            <div class="bar">
+
+               <div class="time1">
+                  1:39
+               </div>
+               <div class="chainer">
+                   <div class="chainerup">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-pause"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+
+                  
+                   </div>
+
+                   <div class="chainerdow">
+                    <i class="fa-solid fa-minus"></i>
+
+                   </div>
+               </div>
+
+               <div class="time2">
+                  4:44
+               </div>
+
+
+            </div>
+
+
+            <div class="bar2">
+
+
+              <div class="pancham">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </div>
+              <div class="pancham">
+                <i class="fa-solid fa-computer"></i>
+              </div>
+              <div class="pancham">
+                <i class="fa-solid fa-volume-high"></i>
+              </div>
+              <div class="pancham">
+                <i class="fa-solid fa-minus"></i>
+              </div>
+              <div class="pancham">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              </div>
+
+
+            </div>
+
+
+
+
+
+
+      </div>
     </footer>
-</body>
+
+    <!-- footer section ends ... called player control bar -->
+  </body>
 </html>
